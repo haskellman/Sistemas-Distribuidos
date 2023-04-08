@@ -26,10 +26,6 @@ O programa foi testado em uma máquina com as seguintes especificações:
 
 Os resultados mostrados aqui podem variar de acordo com as especificações de hardware
 
-## Executando
-
-O script de ordenação pode ser executado seguindo estes passos.
-
 ## Uso
 
 Rodando o programa:
@@ -51,7 +47,7 @@ O pacote `src` contém os módulos auxiliares desenvolvidos, são eles:
 
 2. [utils.py] módulo contendo funções auxiliares para gerar uma lista aleatória, dividir o vetor etc;
 
-<!-- ## Resultados
+## Resultados
 
 Foram utilizados os valores de 1, 2, 4, 8 e 16 processos durante os testes e foi realizado 5 testes para cada, a lista que foi ordenada possui 10.000.000 elementos que são números de 0 a 9 gerados aleatoriamente.
 
@@ -68,8 +64,6 @@ Foram utilizados os valores de 1, 2, 4, 8 e 16 processos durante os testes e foi
 </center>
 
 Como podemos ver na tabela, o tempo médio cresce a medida que vamos adicionando mais processos isso se deve ao fato de que o python possui um mutex Python Global Interpreter (GIL) que faz com que não permita que mais de uma thread seja executada simultaneamente fazendo com que gere um gargalo no programa com o aumento de processos gerando overheads
-
--->
 
 ## Grupo
 
